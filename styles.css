@@ -275,6 +275,11 @@ h1 {
   text-align: left;
 }
 
+.card .book-cover {
+  height: 180px;
+  margin-bottom: 10px;
+}
+
 .card-label {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -286,6 +291,13 @@ h1 {
 .card-text {
   color: var(--muted);
   margin: 8px 0 18px;
+}
+
+.book-cover {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
+  object-fit: cover;
 }
 
 .glass {
@@ -373,6 +385,10 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.book-card .book-cover {
+  height: 220px;
 }
 
 .tag {
