@@ -192,11 +192,43 @@
             <div id="join" class="glass signup-form">
               <h3>Join the Newsletter</h3>
               <p>
-                Drop in your FLODESK form embed here when you’re ready.
+                Join here to get updates and your free prequel.
               </p>
-              <div class="embed-placeholder">
-                FLODESK embed snippet goes here.
-              </div>
+              <script>
+                (function (w, d, t, h, s, n) {
+                  w.FlodeskObject = n;
+                  var fn = function () {
+                    (w[n].q = w[n].q || []).push(arguments);
+                  };
+                  w[n] = w[n] || fn;
+                  var f = d.getElementsByTagName(t)[0];
+                  var v =
+                    "?v=" +
+                    Math.floor(new Date().getTime() / (120 * 1000)) * 60;
+                  var sm = d.createElement(t);
+                  sm.async = true;
+                  sm.type = "module";
+                  sm.src = h + s + ".mjs" + v;
+                  f.parentNode.insertBefore(sm, f);
+                  var sn = d.createElement(t);
+                  sn.async = true;
+                  sn.noModule = true;
+                  sn.src = h + s + ".js" + v;
+                  f.parentNode.insertBefore(sn, f);
+                })(
+                  window,
+                  document,
+                  "script",
+                  "https://assets.flodesk.com",
+                  "/universal",
+                  "fd"
+                );
+              </script>
+              <script>
+                window.fd("form", {
+                  formId: "69ac960345e6c74c868c4135",
+                });
+              </script>
               <p class="fine-print">
                 BookFunnel delivery link placeholder: add your unique URL once
                 created.
@@ -250,3 +282,4 @@
     <script src="script.js"></script>
   </body>
 </html>
+
