@@ -352,6 +352,13 @@ h1 {
   padding: 32px;
 }
 
+.signup-form {
+  margin-top: 28px;
+}
+
+.signup-actions {
+  margin-top: 18px;
+}
 
 .contact {
   background: linear-gradient(
