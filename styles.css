@@ -430,6 +430,16 @@ h1 {
   align-self: flex-start;
 }
 
+.book-card .buy-button {
+  background: var(--rust);
+  box-shadow: 0 14px 34px rgba(201, 111, 75, 0.36);
+}
+
+.book-card .buy-button:hover {
+  background: var(--rust-deep);
+  box-shadow: 0 18px 44px rgba(139, 74, 46, 0.42);
+}
+
 .text-link {
   margin-top: auto;
   color: #e8f5ff;
