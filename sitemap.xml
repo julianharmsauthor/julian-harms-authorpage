@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://julianharms.com/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://julianharms.com/images/julian-harms-social-card.jpg</image:loc>
+      <image:title>Julian Harms</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://julianharms.com/images/TOPSIDE.jpg</image:loc>
+      <image:title>Topside</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://julianharms.com/images/veins-of-betrayal-cover.jpg</image:loc>
+      <image:title>Veins of Betrayal</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://julianharms.com/images/shards-of-vengeance-cover.jpg</image:loc>
+      <image:title>Shards of Vengeance</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://julianharms.com/images/Splintered%20Souls.jpg</image:loc>
+      <image:title>Splintered Souls</image:title>
+    </image:image>
+  </url>
+</urlset>
