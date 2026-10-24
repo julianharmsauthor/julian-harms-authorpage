@@ -67,4 +67,10 @@
       <image:title>Splintered Souls</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://julianharms.com/contact/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
