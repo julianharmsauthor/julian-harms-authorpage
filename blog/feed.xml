@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Julian Harms Blog</title>
+    <link>https://julianharms.com/blog/</link>
+    <atom:link href="https://julianharms.com/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Books, writing, worldbuilding, and works in progress from Julian Harms.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Oct 2026 12:00:00 GMT</lastBuildDate>
+
+    <!-- New posts go at the top, newest first. -->
+    <item>
+      <title>Lorem Ipsum Dolor Sit Amet</title>
+      <link>https://julianharms.com/blog/lorem-ipsum/</link>
+      <guid isPermaLink="true">https://julianharms.com/blog/lorem-ipsum/</guid>
+      <pubDate>Sat, 24 Oct 2026 12:00:00 GMT</pubDate>
+      <category>Worldbuilding</category>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <enclosure url="https://julianharms.com/images/blog/lorem-ipsum-cover.jpg" length="120482" type="image/jpeg" />
+    </item>
+  </channel>
+</rss>

@@ -28,6 +28,15 @@ Option 2 (local server):
 - Contact email and social links: `index.html`
 - Colors, type, layout: `styles.css`
 
+## Blog
+- `blog/index.html` lists posts as cards, newest first.
+- Each post lives at `blog/<slug>/index.html`. Copy `blog/lorem-ipsum/` as the
+  template; every post ends with the MailerLite reader-list signup.
+- Cover images go in `images/blog/` at 1200x630 (also used as the social card).
+- To publish a post: add its folder, add a card at the top of `blog/index.html`,
+  add an `<item>` at the top of `blog/feed.xml` (and bump `lastBuildDate`), and
+  add its URL to `sitemap.xml`.
+
 ## Flowdesk + BookFunnel Integration
 When ready, replace placeholders in the signup section:
 - **Flowdesk**: paste the embed snippet into the `#signup` form container.
