@@ -690,6 +690,25 @@ h3 {
   color: var(--muted);
 }
 
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.contact-page main {
+  flex: 1;
+  display: flex;
+}
+
+.contact-page .contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: clamp(48px, 8vh, 120px) 0;
+}
+
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
