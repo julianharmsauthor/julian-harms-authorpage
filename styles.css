@@ -856,8 +856,41 @@ h3 {
   .book-detail-grid {
     grid-template-columns: 1fr;
   }
+  /* Phone order: hero copy, books, Topside card, signup, about */
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero,
+  .hero > .container,
+  .hero-grid {
+    display: contents;
+  }
+  .hero-copy {
+    order: 1;
+    position: relative;
+    z-index: 1;
+    padding: 90px 4vw 80px;
+    background: linear-gradient(
+      180deg,
+      rgba(95, 149, 152, 0.18),
+      rgba(6, 30, 41, 0.08)
+    );
+  }
+  #books {
+    order: 2;
+  }
   .hero-art {
-    order: -1;
+    order: 3;
+    width: min(1100px, 92vw);
+    margin: 0 auto;
+    padding: 0 0 80px;
+  }
+  #signup {
+    order: 4;
+  }
+  #about {
+    order: 5;
   }
   .newsletter {
     flex-direction: column;
