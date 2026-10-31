@@ -670,6 +670,13 @@ h3 {
   font-size: 1.3rem;
 }
 
+.post-body .post-divider {
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: var(--ocean);
+  margin: 36px 0;
+}
+
 .post-signup {
   margin-top: 56px;
   padding: 32px;

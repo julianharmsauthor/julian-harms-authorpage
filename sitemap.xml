@@ -69,24 +69,24 @@
   </url>
   <url>
     <loc>https://julianharms.com/contact/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://julianharms.com/blog/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://julianharms.com/blog/lorem-ipsum/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <loc>https://julianharms.com/blog/hi-this-is-julian/</loc>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://julianharms.com/images/blog/lorem-ipsum-cover.jpg</image:loc>
-      <image:title>Lorem Ipsum Dolor Sit Amet</image:title>
+      <image:loc>https://julianharms.com/images/blog/hi-this-is-julian-cover.jpg</image:loc>
+      <image:title>Hi, This Is Julian</image:title>
     </image:image>
   </url>
 </urlset>

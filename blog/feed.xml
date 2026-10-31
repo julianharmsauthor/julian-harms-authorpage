@@ -6,17 +6,17 @@
     <atom:link href="https://julianharms.com/blog/feed.xml" rel="self" type="application/rss+xml" />
     <description>Books, writing, worldbuilding, and works in progress from Julian Harms.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 12:00:00 GMT</lastBuildDate>
 
     <!-- New posts go at the top, newest first. -->
     <item>
-      <title>Lorem Ipsum Dolor Sit Amet</title>
-      <link>https://julianharms.com/blog/lorem-ipsum/</link>
-      <guid isPermaLink="true">https://julianharms.com/blog/lorem-ipsum/</guid>
-      <pubDate>Sat, 24 Oct 2026 12:00:00 GMT</pubDate>
-      <category>Worldbuilding</category>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-      <enclosure url="https://julianharms.com/images/blog/lorem-ipsum-cover.jpg" length="120482" type="image/jpeg" />
+      <title>Hi, This Is Julian</title>
+      <link>https://julianharms.com/blog/hi-this-is-julian/</link>
+      <guid isPermaLink="true">https://julianharms.com/blog/hi-this-is-julian/</guid>
+      <pubDate>Sat, 31 Oct 2026 12:00:00 GMT</pubDate>
+      <category>Writing</category>
+      <description>Hi, this is Julian. I write dark dystopian action-adventure and fantasy fiction with many of the same or similar themes: found family, enemies to lovers or friends, the rebellious outsider, the reluctant heroine, lost magic/technology, good vs evil, and quests.</description>
+      <enclosure url="https://julianharms.com/images/blog/hi-this-is-julian-cover.jpg" length="120482" type="image/jpeg" />
     </item>
   </channel>
 </rss>

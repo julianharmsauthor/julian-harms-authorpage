@@ -30,7 +30,7 @@ Option 2 (local server):
 
 ## Blog
 - `blog/index.html` lists posts as cards, newest first.
-- Each post lives at `blog/<slug>/index.html`. Copy `blog/lorem-ipsum/` as the
+- Each post lives at `blog/<slug>/index.html`. Copy `blog/hi-this-is-julian/` as a
   template; every post ends with the MailerLite reader-list signup.
 - Cover images go in `images/blog/` at 1200x630 (also used as the social card).
 - To publish a post: add its folder, add a card at the top of `blog/index.html`,
