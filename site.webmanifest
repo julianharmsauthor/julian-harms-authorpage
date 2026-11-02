@@ -1,0 +1,13 @@
+{
+  "name": "Julian Harms",
+  "short_name": "Julian Harms",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#061e29",
+  "theme_color": "#061e29",
+  "icons": [
+    { "src": "/images/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/images/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/images/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
