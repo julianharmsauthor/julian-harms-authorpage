@@ -10,11 +10,17 @@
   <meta property="og:description" content="Book 1 in the Shattered World Series by dystopian dark fantasy author Julian Harms." />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://julianharms.com/books/veins-of-betrayal/" />
+  <meta property="og:site_name" content="Julian Harms" />
+  <meta property="og:locale" content="en_US" />
   <meta property="og:image" content="https://julianharms.com/images/veins-of-betrayal-cover.jpg" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="800" />
+  <meta property="og:image:alt" content="Veins of Betrayal book cover" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Veins of Betrayal | Julian Harms" />
   <meta name="twitter:description" content="Book 1 in the Shattered World Series by dystopian dark fantasy author Julian Harms." />
   <meta name="twitter:image" content="https://julianharms.com/images/veins-of-betrayal-cover.jpg" />
+  <meta name="twitter:image:alt" content="Veins of Betrayal book cover" />
   <title>Veins of Betrayal | Julian Harms</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,28 +30,63 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Book",
-      "@id": "https://julianharms.com/books/veins-of-betrayal/#book",
-      "name": "Veins of Betrayal",
-      "author": {
-        "@type": "Person",
-        "name": "Julian Harms",
-        "url": "https://julianharms.com/"
-      },
-      "bookSeries": "Shattered World Series",
-      "bookFormat": "https://schema.org/EBook",
-      "genre": [
-        "Dystopian fiction",
-        "Dark fantasy"
-      ],
-      "image": "https://julianharms.com/images/veins-of-betrayal-cover.jpg",
-      "url": "https://julianharms.com/books/veins-of-betrayal/",
-      "description": "Sometimes we wait our entire lives for something we think will be our salvation, only to find it might just be our demise.",
-      "offers": {
-        "@type": "Offer",
-        "url": "https://books2read.com/u/b66M6W",
-        "availability": "https://schema.org/InStock"
-      }
+      "@graph": [
+        {
+          "@type": "Book",
+          "@id": "https://julianharms.com/books/veins-of-betrayal/#book",
+          "name": "Veins of Betrayal",
+          "author": {
+            "@type": "Person",
+            "@id": "https://julianharms.com/#author",
+            "name": "Julian Harms",
+            "url": "https://julianharms.com/"
+          },
+          "bookFormat": "https://schema.org/EBook",
+          "genre": [
+            "Dystopian fiction",
+            "Dark fantasy"
+          ],
+          "image": "https://julianharms.com/images/veins-of-betrayal-cover.jpg",
+          "url": "https://julianharms.com/books/veins-of-betrayal/",
+          "description": "Sometimes we wait our entire lives for something we think will be our salvation, only to find it might just be our demise.",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://books2read.com/u/b66M6W",
+            "availability": "https://schema.org/InStock"
+          },
+          "inLanguage": "en",
+          "isPartOf": {
+            "@id": "https://julianharms.com/#shattered-world-series"
+          },
+          "position": 1
+        },
+        {
+          "@type": "BookSeries",
+          "@id": "https://julianharms.com/#shattered-world-series",
+          "name": "Shattered World Series",
+          "url": "https://julianharms.com/#books",
+          "author": {
+            "@id": "https://julianharms.com/#author"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Julian Harms",
+              "item": "https://julianharms.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Veins of Betrayal",
+              "item": "https://julianharms.com/books/veins-of-betrayal/"
+            }
+          ]
+        }
+      ]
     }
   </script>
   <link rel="stylesheet" href="../../styles.css" />
