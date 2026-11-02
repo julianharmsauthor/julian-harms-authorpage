@@ -11,7 +11,9 @@
   <meta property="og:title" content="Julian Harms | Dystopian & Dark Fantasy Author" />
   <meta property="og:description" content="Explore the Shattered World Series, dark fantasy fiction, and a free prequel from author Julian Harms." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://julianharms.com" />
+  <meta property="og:url" content="https://julianharms.com/" />
+  <meta property="og:site_name" content="Julian Harms" />
+  <meta property="og:locale" content="en_US" />
   <meta property="og:image" content="https://julianharms.com/images/julian-harms-social-card.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -48,7 +50,12 @@
           "name": "Julian Harms",
           "url": "https://julianharms.com/",
           "jobTitle": "Author",
-          "description": "Julian Harms writes dark dystopian action adventure and fantasy fiction, where survival comes at a cost and hope refuses to die."
+          "description": "Julian Harms writes dark dystopian action adventure and fantasy fiction, where survival comes at a cost and hope refuses to die.",
+          "knowsAbout": [
+            "Dystopian fiction",
+            "Dark fantasy",
+            "Fantasy fiction"
+          ]
         },
         {
           "@type": "Book",
@@ -64,33 +71,30 @@
           ],
           "image": "https://julianharms.com/images/TOPSIDE.jpg",
           "url": "https://julianharms.com/books/topside/",
-          "description": "Topside is a free prequel novella available to Julian Harms reader list subscribers."
+          "description": "Topside is a free prequel novella available to Julian Harms reader list subscribers.",
+          "inLanguage": "en"
         },
         {
-          "@type": "ItemList",
+          "@type": "BookSeries",
           "@id": "https://julianharms.com/#shattered-world-series",
           "name": "Shattered World Series",
-          "itemListElement": [
+          "author": {
+            "@id": "https://julianharms.com/#author"
+          },
+          "inLanguage": "en",
+          "genre": [
+            "Dystopian fiction",
+            "Dark fantasy"
+          ],
+          "hasPart": [
             {
-              "@type": "ListItem",
-              "position": 1,
-              "item": {
-                "@id": "https://julianharms.com/books/veins-of-betrayal/#book"
-              }
+              "@id": "https://julianharms.com/books/veins-of-betrayal/#book"
             },
             {
-              "@type": "ListItem",
-              "position": 2,
-              "item": {
-                "@id": "https://julianharms.com/books/shards-of-vengeance/#book"
-              }
+              "@id": "https://julianharms.com/books/shards-of-vengeance/#book"
             },
             {
-              "@type": "ListItem",
-              "position": 3,
-              "item": {
-                "@id": "https://julianharms.com/books/splintered-souls/#book"
-              }
+              "@id": "https://julianharms.com/books/splintered-souls/#book"
             }
           ]
         },
@@ -101,7 +105,6 @@
           "author": {
             "@id": "https://julianharms.com/#author"
           },
-          "bookSeries": "Shattered World Series",
           "bookFormat": "https://schema.org/EBook",
           "genre": [
             "Dystopian fiction",
@@ -114,7 +117,12 @@
             "@type": "Offer",
             "url": "https://books2read.com/u/b66M6W",
             "availability": "https://schema.org/InStock"
-          }
+          },
+          "inLanguage": "en",
+          "isPartOf": {
+            "@id": "https://julianharms.com/#shattered-world-series"
+          },
+          "position": 1
         },
         {
           "@type": "Book",
@@ -123,7 +131,6 @@
           "author": {
             "@id": "https://julianharms.com/#author"
           },
-          "bookSeries": "Shattered World Series",
           "bookFormat": "https://schema.org/EBook",
           "genre": [
             "Dystopian fiction",
@@ -136,6 +143,16 @@
             "@type": "Offer",
             "url": "https://www.amazon.com/dp/B0GWYNR5W9",
             "availability": "https://schema.org/InStock"
+          },
+          "inLanguage": "en",
+          "isPartOf": {
+            "@id": "https://julianharms.com/#shattered-world-series"
+          },
+          "position": 2,
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "ASIN",
+            "value": "B0GWYNR5W9"
           }
         },
         {
@@ -145,7 +162,6 @@
           "author": {
             "@id": "https://julianharms.com/#author"
           },
-          "bookSeries": "Shattered World Series",
           "bookFormat": "https://schema.org/EBook",
           "genre": [
             "Dystopian fiction",
@@ -158,6 +174,16 @@
             "@type": "Offer",
             "url": "https://www.amazon.com/dp/B0GX2TV7L5",
             "availability": "https://schema.org/InStock"
+          },
+          "inLanguage": "en",
+          "isPartOf": {
+            "@id": "https://julianharms.com/#shattered-world-series"
+          },
+          "position": 3,
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "ASIN",
+            "value": "B0GX2TV7L5"
           }
         }
       ]
