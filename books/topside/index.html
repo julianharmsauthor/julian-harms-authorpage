@@ -10,11 +10,17 @@
   <meta property="og:description" content="Get the free prequel novella set in Julian Harms' dystopian dark fantasy world." />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://julianharms.com/books/topside/" />
+  <meta property="og:site_name" content="Julian Harms" />
+  <meta property="og:locale" content="en_US" />
   <meta property="og:image" content="https://julianharms.com/images/TOPSIDE.jpg" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="800" />
+  <meta property="og:image:alt" content="Topside book cover" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Topside | Julian Harms" />
   <meta name="twitter:description" content="Get the free prequel novella set in Julian Harms' dystopian dark fantasy world." />
   <meta name="twitter:image" content="https://julianharms.com/images/TOPSIDE.jpg" />
+  <meta name="twitter:image:alt" content="Topside book cover" />
   <title>Topside | Julian Harms</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,22 +30,45 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Book",
-      "@id": "https://julianharms.com/books/topside/#book",
-      "name": "Topside",
-      "author": {
-        "@type": "Person",
-        "name": "Julian Harms",
-        "url": "https://julianharms.com/"
-      },
-      "bookFormat": "https://schema.org/EBook",
-      "genre": [
-        "Dystopian fiction",
-        "Dark fantasy"
-      ],
-      "image": "https://julianharms.com/images/TOPSIDE.jpg",
-      "url": "https://julianharms.com/books/topside/",
-      "description": "Topside is a free prequel novella available to Julian Harms reader list subscribers."
+      "@graph": [
+        {
+          "@type": "Book",
+          "@id": "https://julianharms.com/books/topside/#book",
+          "name": "Topside",
+          "author": {
+            "@type": "Person",
+            "@id": "https://julianharms.com/#author",
+            "name": "Julian Harms",
+            "url": "https://julianharms.com/"
+          },
+          "bookFormat": "https://schema.org/EBook",
+          "genre": [
+            "Dystopian fiction",
+            "Dark fantasy"
+          ],
+          "image": "https://julianharms.com/images/TOPSIDE.jpg",
+          "url": "https://julianharms.com/books/topside/",
+          "description": "Topside is a free prequel novella available to Julian Harms reader list subscribers.",
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Julian Harms",
+              "item": "https://julianharms.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Topside",
+              "item": "https://julianharms.com/books/topside/"
+            }
+          ]
+        }
+      ]
     }
   </script>
   <link rel="stylesheet" href="../../styles.css" />
