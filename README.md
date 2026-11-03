@@ -5,8 +5,7 @@ simple HTML/CSS/JS so it is easy to maintain and ideal for GitHub Pages.
 
 ## What's Included
 - `index.html` — single‑page layout with sections: Hero, Books, About, Signup, Contact.
-- `styles.css` — bespoke sci‑fi/dystopian visual theme (bold typography, gradients, glass panels).
-- `script.js` — intersection‑observer reveal animations.
+- `styles.css` — cover-led theme: palette sampled from the book covers, Big Shoulders Display titles, Literata body. No animations by design (hover/focus colour changes only).
 
 ## Current Status
 - The site is fully functional as a static page.
@@ -59,6 +58,5 @@ When ready, replace placeholders in the signup section:
 ## Files
 - `index.html`
 - `styles.css`
-- `script.js`
 - `README.md`
 - `AI_REPROMPT.md`
