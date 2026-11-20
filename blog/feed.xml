@@ -6,9 +6,17 @@
     <atom:link href="https://julianharms.com/blog/feed.xml" rel="self" type="application/rss+xml" />
     <description>Books, writing, worldbuilding, and works in progress from Julian Harms.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 12:00:00 GMT</lastBuildDate>
 
     <!-- New posts go at the top, newest first. -->
+    <item>
+      <title>It Came to Me in the Shower</title>
+      <link>https://julianharms.com/blog/it-came-to-me-in-the-shower/</link>
+      <guid isPermaLink="true">https://julianharms.com/blog/it-came-to-me-in-the-shower/</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Writing</category>
+      <description>The book that really got me started on my writing journey came to me in the shower, seriously.</description>
+    </item>
     <item>
       <title>Hi, This Is Julian</title>
       <link>https://julianharms.com/blog/hi-this-is-julian/</link>
