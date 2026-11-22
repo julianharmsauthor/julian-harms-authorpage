@@ -81,7 +81,7 @@
   </url>
   <url>
     <loc>https://julianharms.com/blog/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -98,6 +98,12 @@
   <url>
     <loc>https://julianharms.com/blog/it-came-to-me-in-the-shower/</loc>
     <lastmod>2026-11-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://julianharms.com/blog/reading-order-shattered-world/</loc>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>

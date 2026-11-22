@@ -6,9 +6,17 @@
     <atom:link href="https://julianharms.com/blog/feed.xml" rel="self" type="application/rss+xml" />
     <description>Books, writing, worldbuilding, and works in progress from Julian Harms.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 12:00:00 GMT</lastBuildDate>
 
     <!-- New posts go at the top, newest first. -->
+    <item>
+      <title>Reading order Shattered World</title>
+      <link>https://julianharms.com/blog/reading-order-shattered-world/</link>
+      <guid isPermaLink="true">https://julianharms.com/blog/reading-order-shattered-world/</guid>
+      <pubDate>Sun, 22 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Books</category>
+      <description>Reading order for the Shattered World Series</description>
+    </item>
     <item>
       <title>It Came to Me in the Shower</title>
       <link>https://julianharms.com/blog/it-came-to-me-in-the-shower/</link>
