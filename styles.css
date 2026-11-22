@@ -953,3 +953,43 @@ main {
     scroll-behavior: auto !important;
   }
 }
+
+/* ---------- Social links ---------- */
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  color: var(--dim);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.social-icon:hover,
+.social-icon:focus-visible {
+  color: var(--manila);
+  transform: rotate(-6deg);
+}
+
+.page-social {
+  margin-top: 22px;
+}
+
+.page-social .social-icon {
+  color: var(--stamp);
+  border-width: 2px;
+}
+
+.page-social .social-icon:hover,
+.page-social .social-icon:focus-visible {
+  color: var(--ink);
+}
