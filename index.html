@@ -27,12 +27,12 @@
   <link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
   <link rel="manifest" href="/site.webmanifest" />
-  <meta name="theme-color" content="#1f1a16" />
+  <meta name="theme-color" content="#1b1a16" />
   <title>Julian Harms | Dystopian & Dark Fantasy Author</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Special+Elite&family=Courier+Prime:wght@400;700&display=swap"
     rel="stylesheet" />
   <script type="application/ld+json">
     {
@@ -225,13 +225,16 @@
 
   <main>
     <section class="hero">
-      <div class="hero-intro">
+      <div class="container">
         <p class="eyebrow">Novels by Julian Harms</p>
         <h1>Dystopian <span class="nowrap">sci-fi</span> and fantasy for readers who love heroines and hard choices.</h1>
       </div>
+    </section>
 
-      <div id="veins-of-betrayal" class="container feature">
-        <a class="feature-cover" href="/books/veins-of-betrayal/">
+    <div class="container">
+      <div id="veins-of-betrayal" class="card feature">
+        <span class="tape" aria-hidden="true"></span>
+        <a class="photo dark" href="/books/veins-of-betrayal/">
           <img class="book-cover" src="images/veins-of-betrayal-cover.webp" alt="Veins of Betrayal book cover" width="512" height="800" decoding="async" fetchpriority="high" />
         </a>
         <div class="feature-copy">
@@ -252,9 +255,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section id="books" class="section books">
+    <section id="books" class="books">
       <div class="container">
         <div class="section-title">
           <p class="eyebrow">Reading order</p>
@@ -265,7 +268,7 @@
           <li>
             <a href="/books/topside/">
               <img class="book-cover" src="images/TOPSIDE.webp" alt="Topside book cover" width="512" height="800" loading="lazy" decoding="async" />
-              <span class="ro-num">Prequel</span>
+              <span class="stamp ro-num">Prequel</span>
               <span class="ro-title">Topside</span>
               <span class="ro-note">Free when you join the reader list</span>
             </a>
@@ -273,7 +276,7 @@
           <li>
             <a href="/books/veins-of-betrayal/">
               <img class="book-cover" src="images/veins-of-betrayal-cover.webp" alt="Veins of Betrayal book cover" width="512" height="800" loading="lazy" decoding="async" />
-              <span class="ro-num">Book 1</span>
+              <span class="stamp ro-num">Book 1</span>
               <span class="ro-title">Veins of Betrayal</span>
               <span class="ro-note">Start here</span>
             </a>
@@ -281,21 +284,22 @@
           <li>
             <a href="/books/shards-of-vengeance/">
               <img class="book-cover" src="images/shards-of-vengeance-cover.webp" alt="Shards of Vengeance book cover" width="512" height="800" loading="lazy" decoding="async" />
-              <span class="ro-num">Book 2</span>
+              <span class="stamp ro-num">Book 2</span>
               <span class="ro-title">Shards of Vengeance</span>
             </a>
           </li>
           <li>
             <a href="/books/splintered-souls/">
               <img class="book-cover" src="images/splintered-souls-cover.webp" alt="Splintered Souls book cover" width="512" height="800" loading="lazy" decoding="async" />
-              <span class="ro-num">Book 3</span>
+              <span class="stamp ro-num">Book 3</span>
               <span class="ro-title">Splintered Souls</span>
             </a>
           </li>
         </ol>
 
         <div class="book-list">
-          <article id="shards-of-vengeance" class="book-row">
+          <article id="shards-of-vengeance" class="card book-row">
+            <span class="tape" aria-hidden="true"></span>
             <a href="/books/shards-of-vengeance/">
               <img class="book-cover" src="images/shards-of-vengeance-cover.webp" alt="Shards of Vengeance book cover" width="512" height="800" loading="lazy" decoding="async" />
             </a>
@@ -313,7 +317,8 @@
               </div>
             </div>
           </article>
-          <article id="splintered-souls" class="book-row">
+          <article id="splintered-souls" class="card book-row">
+            <span class="tape" aria-hidden="true"></span>
             <a href="/books/splintered-souls/">
               <img class="book-cover" src="images/splintered-souls-cover.webp" alt="Splintered Souls book cover" width="512" height="800" loading="lazy" decoding="async" />
             </a>
@@ -333,29 +338,34 @@
       </div>
     </section>
 
-    <section id="signup" class="section signup">
-      <div class="container signup-shell">
-        <a class="signup-cover" href="/books/topside/">
-          <img class="book-cover" src="images/TOPSIDE.webp" alt="Topside book cover" width="512" height="800" loading="lazy" decoding="async" />
-          <span class="text-link">About Topside</span>
-        </a>
-        <div class="signup-panel">
-          <p class="eyebrow">Free prequel: Topside</p>
-          <h2>Stay in the Loop and Get the Free Prequel when you join the reader list.</h2>
-          <p class="lead">
-            The newsletter will include thoughts on writing and life, possible sneak peeks into new books, cover reveals, info on upcoming book releases, and events. Join now and I'll send you an
-            exclusive prequel set in the same world as the trilogy.
-          </p>
-          <div class="signup-form">
-            <div class="ml-embedded" data-form="vc6lXw"></div>
+    <section id="signup" class="signup">
+      <div class="container">
+        <div class="card signup-shell">
+          <div class="signup-cover">
+            <a class="photo" href="/books/topside/">
+              <img class="book-cover" src="images/TOPSIDE.webp" alt="Topside book cover" width="512" height="800" loading="lazy" decoding="async" />
+            </a>
+            <a class="text-link" href="/books/topside/">About Topside</a>
+          </div>
+          <div class="signup-panel">
+            <p class="eyebrow">Free prequel: Topside</p>
+            <h2>Stay in the Loop and Get the Free Prequel when you join the reader list.</h2>
+            <p class="lead">
+              The newsletter will include thoughts on writing and life, possible sneak peeks into new books, cover reveals, info on upcoming book releases, and events. Join now and I'll send you an
+              exclusive prequel set in the same world as the trilogy.
+            </p>
+            <div class="signup-form">
+              <div class="ml-embedded" data-form="vc6lXw"></div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="section about">
+    <section id="about" class="about">
       <div class="container about-grid">
-        <div class="about-panel">
+        <div class="card about-panel">
+          <span class="tape" aria-hidden="true"></span>
           <h2>Welcome</h2>
           <p>
             I write dark dystopian action adventure and fantasy fiction. I love
